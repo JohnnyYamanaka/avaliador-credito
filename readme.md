@@ -10,5 +10,3 @@ Streamlit-init
 ```
 
 ou acessar o [link]()
-
-agora vamos ver o   que sai desse caralho.

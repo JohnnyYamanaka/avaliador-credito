@@ -12,4 +12,4 @@ O modelo final que está rodando no projeto é uma Random Forest com o melhor re
 
 ![matriz-confusao](imgs/matriz_confusao.png)
 
-Para ser um modelo confiável, o modelo precisa aumentar consideravelmente sua pontuação no recall.
+Para ser um modelo confiável, o modelo precisa aumentar consideravelmente sua pontuação no recall, ou seja, a capacidade do modelo identificar os casos onde os clientes são maus pagadores.

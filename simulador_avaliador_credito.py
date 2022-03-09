@@ -55,16 +55,16 @@ with my_expander1:
     dict_respostas['Categoria_de_renda'] = col1_form.selectbox(
         'Qual a categoria de renda?', lista_campos['Categoria_de_renda'],
     )
-    
-    dict_respostas['Anos_empregado'] = col1_form.slider(
-        'Quantos anos empregado?', min_value=0, max_value=50                       
-    )
 
     dict_respostas['Rendimento_Anual'] = col1_form.slider(
         'Qual o salário mensal?', help='Valor ajustável com a seta',
         min_value=0, max_value=35000, step=500
         
     ) * 12
+
+    dict_respostas['Anos_empregado'] = col1_form.slider(
+        'Quantos anos empregado?', min_value=0, max_value=50                       
+    )
 
     dict_respostas['Ocupacao'] = col2_form.selectbox(
         'Qual a sua ocupação?', lista_campos['Ocupacao']
